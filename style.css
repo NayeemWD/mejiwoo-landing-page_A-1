@@ -28,10 +28,42 @@ body {
   background-color: #c4c2c271;
 }
 
-#banner{
-    padding: 10px;
+#banner {
+  padding: 10px;
 }
 #banner img {
   width: 100%;
   height: auto;
+}
+
+#collection-title {
+  text-align: center;
+  margin: 40px 0 40px 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#collections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.collection h3 {
+  text-align: center;
+  margin: 15px 0 20px 0;
+  font-size: 25px;
+}
+
+.collection div {
+  text-align: center;
+}
+.collection div button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
 }
