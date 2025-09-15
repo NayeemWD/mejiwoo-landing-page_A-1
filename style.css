@@ -23,6 +23,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-size: large;
+  margin-right: 15px;
 }
 #logo button:hover {
   background-color: #c4c2c271;
@@ -32,12 +33,13 @@ body {
   padding: 10px;
 }
 #banner img {
+  /* object-fit: cover; */
   width: 100%;
   height: auto;
 }
 
 main {
-  padding: 0 80px;
+  padding: 0 100px;
 }
 
 /* #collection-title */
@@ -53,6 +55,11 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+
+.collection img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .collection h3 {
@@ -88,6 +95,10 @@ main {
   gap: 20px;
 }
 
+.best-seller img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 .best-seller h4 {
   text-align: center;
   margin: 18px 0 8px 0;
