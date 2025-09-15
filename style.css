@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 #navbar {
@@ -36,6 +36,11 @@ body {
   height: auto;
 }
 
+main {
+  padding: 0 80px;
+}
+
+/* #collection-title */
 #collection-title {
   text-align: center;
   margin: 40px 0 40px 0;
@@ -45,7 +50,7 @@ body {
 
 #collections {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -66,4 +71,30 @@ body {
   cursor: pointer;
   font-size: large;
   text-align: center;
+}
+
+/* #best-sellers-title */
+#best-sellers-title {
+  text-align: center;
+  margin: 40px 0 40px 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#best-sellers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.best-seller h4 {
+  text-align: center;
+  margin: 18px 0 8px 0;
+  font-size: 15px;
+}
+
+.best-seller p {
+  text-align: center;
+  font-size: 15px;
 }
