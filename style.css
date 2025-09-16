@@ -1,18 +1,20 @@
+/* Base body styles */
 body {
   font-family: "Inter", sans-serif;
 }
 
+/* Navigation bar styles */
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
-
   top: 0;
   z-index: 1000;
   background-color: white;
 }
 
+/* Menu styles */
 #menu {
   list-style-type: none;
   display: flex;
@@ -24,6 +26,7 @@ body {
   font-size: large;
 }
 
+/* Logo button styles */
 #logo button {
   background-color: #ffffff;
   border: none;
@@ -37,19 +40,53 @@ body {
   background-color: #c4c2c271;
 }
 
-#banner {
-  padding: 10px;
-}
-#banner img {
-  width: 100%;
-  height: auto;
+/* Banner section styles */
+#banner-section {
+  background-color: #f7f6f0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 120px;
+  margin: 0 10px;
 }
 
+/* Banner images row */
+.banner-images {
+  display: flex;
+  gap: 60px;
+}
+
+/* Banner text styles */
+#banner-text {
+  width: 22%;
+  margin: 0 20px;
+  text-align: center;
+}
+
+#banner-text h1 {
+  font-size: 55px;
+  margin: 0;
+}
+
+#banner-text h2 {
+  font-size: 40px;
+  font-weight: 550;
+  margin: 0;
+}
+#banner-text hr {
+  border: 1px solid black;
+}
+#banner-text p {
+  font-size: 22px;
+  margin: 0;
+}
+
+/* Main content padding */
 main {
   padding: 0 100px;
 }
 
-/* #collection section */
+/* Collection section */
 #collection-title {
   text-align: center;
   margin: 40px 0 40px 0;
@@ -57,6 +94,7 @@ main {
   font-weight: bold;
 }
 
+/* Collection cards container */
 #collections {
   display: flex;
   justify-content: space-between;
@@ -64,17 +102,20 @@ main {
   gap: 20px;
 }
 
+/* Collection image hover effect */
 .collection img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
 
+/* Collection title */
 .collection h3 {
   text-align: center;
   margin: 15px 0 20px 0;
   font-size: 25px;
 }
 
+/* Collection button styles */
 .collection div {
   text-align: center;
 }
@@ -87,7 +128,7 @@ main {
   text-align: center;
 }
 
-/* #best-sellers section */
+/* Best sellers section */
 #best-sellers-title {
   text-align: center;
   margin: 40px 0 40px 0;
@@ -95,6 +136,7 @@ main {
   font-weight: bold;
 }
 
+/* Best sellers cards container */
 #best-sellers {
   display: flex;
   justify-content: space-between;
@@ -102,16 +144,19 @@ main {
   gap: 20px;
 }
 
+/* Best seller image hover effect */
 .best-seller img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+/* Best seller title */
 .best-seller h4 {
   text-align: center;
   margin: 18px 0 10px 0;
   font-size: 15px;
 }
 
+/* Best seller price */
 .best-seller p {
   text-align: center;
   font-size: 15px;
